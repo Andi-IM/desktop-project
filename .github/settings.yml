@@ -54,16 +54,31 @@ labels:
     color: '#336699'
     description: New functionality.
 
-  - name: first-timers-only
-    # include the old name to rename an existing label
-    oldname: Help Wanted
+  - name: GitHub
+    color: '#000000'
+    description: GitHub context.
+
+  - name: info
+    color: '#0B0A4A'
+    description: Something want to tell.
+
+  - name: Need Help    
+    oldname: first-timers-only 
+
+  - name: Trello
+    color: '#1D76DB'
+    description: Trello Context.  
 
 # Milestones: define milestones for Issues and Pull Requests
 milestones:
-  - title: milestone-title
-    description: milestone-description
+  - title: Gabung ke Github
+    description: memastikan semua anggota collab bergabung
     # The state of the milestone. Either `open` or `closed`
-    state: open
+    state: closed
+
+  - title: Mulai Real Project!
+    description: memulai tahap production!
+    state: closed  
 
 # Collaborators: give specific users access to this repository.
 # See https://developer.github.com/v3/repos/collaborators/#add-user-as-a-collaborator for available options
