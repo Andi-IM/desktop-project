@@ -4,16 +4,13 @@ repository:
   # See https://developer.github.com/v3/repos/#edit for all available settings.
 
   # The name of the repository. Changing this will rename the repository
-  name: repo-name
+  name: desktop-project
 
   # A short description of the repository that will show up on GitHub
-  description: description of repo
-
-  # A URL with more information about the repository
-  homepage: https://example.github.io/
+  description: Sample Project Kelompok
 
   # A comma-separated list of topics to set on the repository
-  topics: github, probot
+  topics: projectdesktop, trplpnp, kelompok5trpl2apnp
 
   # Either `true` to make the repository private, or `false` to make it public.
   private: false
@@ -32,7 +29,7 @@ repository:
   has_downloads: true
 
   # Updates the default branch for this repository.
-  default_branch: master
+  default_branch: main
 
   # Either `true` to allow squash-merging pull requests, or `false` to prevent
   # squash-merging.
@@ -71,7 +68,7 @@ milestones:
 # Collaborators: give specific users access to this repository.
 # See https://developer.github.com/v3/repos/collaborators/#add-user-as-a-collaborator for available options
 collaborators:
-  - username: bkeepers
+  - username: Andi-IM
     # Note: Only valid on organization-owned repositories.
     # The permission to grant the collaborator. Can be one of:
     # * `pull` - can pull, but not push to or administer this repository.
@@ -79,26 +76,19 @@ collaborators:
     # * `admin` - can pull, push and administer this repository.
     # * `maintain` - Recommended for project managers who need to manage the repository without access to sensitive or destructive actions.
     # * `triage` - Recommended for contributors who need to proactively manage issues and pull requests without write access.
-    permission: push
-
-  - username: hubot
-    permission: pull
-
-# See https://developer.github.com/v3/teams/#add-or-update-team-repository for available options
-teams:
-  - name: core
-    # The permission to grant the team. Can be one of:
-    # * `pull` - can pull, but not push to or administer this repository.
-    # * `push` - can pull and push, but not administer this repository.
-    # * `admin` - can pull, push and administer this repository.
-    # * `maintain` - Recommended for project managers who need to manage the repository without access to sensitive or destructive actions.
-    # * `triage` - Recommended for contributors who need to proactively manage issues and pull requests without write access.
     permission: admin
-  - name: docs
+
+  - username: hakkansy
     permission: push
+  
+  - username: luthfiyyahnisaa
+    permission: push
+  
+  - username: abidasshidiqienugraha
+    permission: push    
 
 branches:
-  - name: master
+  - name: main
     # https://developer.github.com/v3/repos/branches/#update-branch-protection
     # Branch Protection settings. Set to null to disable
     protection:
@@ -112,7 +102,7 @@ branches:
         require_code_owner_reviews: true
         # Specify which users and teams can dismiss pull request reviews. Pass an empty dismissal_restrictions object to disable. User and team dismissal_restrictions are only available for organization-owned repositories. Omit this parameter for personal repositories.
         dismissal_restrictions:
-          users: []
+          users: [Andi-IM]
           teams: []
       # Required. Require status checks to pass before merging. Set to null to disable
       required_status_checks:
