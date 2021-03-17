@@ -1,3 +1,4 @@
+
 public class Andi implements GetItem{
 
     private static String nama = "Andi Irham";
