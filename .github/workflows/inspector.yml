@@ -23,7 +23,7 @@ jobs:
         id: code-inspector
         # You may pin to the exact commit or the version.
         # uses: codeinspectorio/github-action@01c818be303e2c4bcec991ca1c51feab753a1e2a
-        uses: codeinspectorio/github-action@v1
+        uses: codeinspectorio/github-action@master
         with:
           # Token to checkout the repository.
           repo_token: ${{ secrets.GITHUB_TOKEN }}
