@@ -3,6 +3,7 @@ public class Minum {
         System.out.println("Belajar Github");
         System.out.println();
         tampilkan("Le Mineral");
+        tampilkan("Kek ada manis-manisnya")
     }
 
     public static void tampilkan(String nama){
