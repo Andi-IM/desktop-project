@@ -1,4 +1,6 @@
+
 public class Minum {
+    private Minum {() {}
     public static void main(String[] args) {
         System.out.println("Belajar Github");
         System.out.println();
